@@ -1,0 +1,22 @@
+{
+ :paths ["src"]
+ :deps [
+        org.clojure/clojure                            {:mvn/version "1.11.1"}
+        org.eclipse.aether/aether-api                  {:mvn/version "1.1.0"}
+        org.eclipse.aether/aether-spi                  {:mvn/version "1.1.0"}
+        org.eclipse.aether/aether-util                 {:mvn/version "1.1.0"}
+        org.eclipse.aether/aether-impl                 {:mvn/version "1.1.0"}
+        org.eclipse.aether/aether-connector-basic      {:mvn/version "1.1.0"}
+        org.eclipse.aether/aether-transport-wagon      {:mvn/version "1.1.0"}
+        org.eclipse.aether/aether-transport-http       {:mvn/version "1.1.0"}
+        org.eclipse.aether/aether-transport-file       {:mvn/version "1.1.0"}
+        org.eclipse.aether/aether-transport-classpath  {:mvn/version "1.1.0"}
+        org.apache.maven/maven-aether-provider         {:mvn/version "3.3.9"}
+        org.apache.maven.wagon/wagon-webdav-jackrabbit {:mvn/version "3.1.0"}
+        org.eclipse.jgit/org.eclipse.jgit              {:mvn/version "5.1.1.201809181055-r"}
+        org.jsoup/jsoup                                {:mvn/version "1.11.3"}
+        org.ow2.asm/asm                                {:mvn/version "6.2"}
+        org.bouncycastle/bcprov-jdk15on                {:mvn/version "1.60"}
+        org.bouncycastle/bcpg-jdk15on                  {:mvn/version "1.60"}
+        ]
+ }
